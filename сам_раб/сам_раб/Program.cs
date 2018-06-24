@@ -9,9 +9,9 @@ namespace сам_раб
     {
         static void Main(string[] args)
         {
-            int a = 0;
+            int a = -1;
             int b = 5;
-
+            Console.WriteLine("Pow=", Math.Pow(a,b));
         }
     }
 }
